@@ -144,39 +144,6 @@ export function generateLandingPage(manifest: any, addonBase: string): string {
                 transform: translateY(-2px);
             }
 
-            .btn-kofi {
-                background-color: #29abe0;
-                color: white;
-            }
-
-            .btn-kofi:hover {
-                background-color: #2291be;
-                transform: translateY(-2px);
-            }
-
-            .custom-kofi-union {
-                background: #FF5E5B;
-                color: white;
-                text-decoration: none;
-                padding: 12px 20px;
-                border-radius: 12px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 10px;
-                transition: transform 0.2s;
-                font-weight: 600;
-            }
-
-            .custom-kofi-union:hover {
-                transform: scale(1.02);
-                background: #ff4d4a;
-            }
-
-            .custom-kofi-union img {
-                height: 24px;
-            }
-
             .toast {
                 position: fixed;
                 bottom: 30px;
@@ -212,11 +179,6 @@ export function generateLandingPage(manifest: any, addonBase: string): string {
                 
                 <div class="button-group">
                     <a href="${installUrl}" class="btn btn-primary" id="install_button">Installa Addon</a>
-
-                    <a href="https://ko-fi.com/G2G41MG3ZN" target="_blank" class="custom-kofi-union">
-                        <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi">
-                        <span>Un Grog per noi 🍻</span>
-                    </a>
 
                     <button class="btn btn-secondary" onclick="copyManifest()">Copia Link Manifest</button>
                 </div>
