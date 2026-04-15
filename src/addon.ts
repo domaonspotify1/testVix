@@ -9,7 +9,7 @@ import { generateLandingPage } from './landing';
 const manifest = {
     id: 'org.selfvix.simple',
     version: '1.1.0',
-    name: '⚠️ |DomaVix| ⚠️',
+    name: ' | DomaVix|  ',
     description: 'VixSrc e VixCloud',
     logo: 'https://i.imgur.com/xlR706F.png',
     background: 'https://4kwallpapers.com/images/wallpapers/black-and-white-2560x1440-21293.jpg',
