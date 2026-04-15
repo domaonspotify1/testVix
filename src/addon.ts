@@ -9,8 +9,8 @@ import { generateLandingPage } from './landing';
 const manifest = {
     id: 'org.selfvix.simple',
     version: '1.1.0',
-    name: 'DomaVix🤌',
-    description: 'AutoVixSrc e VixCloud',
+    name: '⚠️ |DomaVix| ⚠️',
+    description: 'VixSrc e VixCloud',
     logo: 'https://www.stremio.com/website/stremio-purple-small.png',
     background: 'https://4kwallpapers.com/images/wallpapers/black-and-white-2560x1440-21293.jpg',
     resources: ['stream'],
