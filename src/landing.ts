@@ -31,7 +31,7 @@ export function generateLandingPage(manifest: any, addonBase: string): string {
             body {
                 font-family: 'Inter', sans-serif;
                 background-color: var(--bg);
-                background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://i.imgur.com/ebLhy9z.jpeg');
+                background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://4kwallpapers.com/images/wallpapers/black-and-white-2560x1440-21293.jpg');
                 background-size: cover;
                 background-position: center;
                 background-attachment: fixed;
